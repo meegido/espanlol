@@ -6,11 +6,10 @@ import React from 'react'
 export default function Espanlol() {
   return (
     <ThemeProvider theme={{}}>
-    <React.Fragment>
-        <HeroContainer />      
-      <GlobalStyle />
-    </React.Fragment>
-  </ThemeProvider>
-    
+      <React.Fragment>
+          <HeroContainer />      
+        <GlobalStyle />
+      </React.Fragment>
+    </ThemeProvider>
   );
 }

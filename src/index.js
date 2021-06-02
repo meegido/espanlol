@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.styles.js';
 import Espanlol from './pages/HomePage/espanlol';
 import reportWebVitals from './reportWebVitals';
 

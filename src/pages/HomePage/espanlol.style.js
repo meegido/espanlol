@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components/macro'
 import { ThemeProvider } from 'styled-components'
+
 
 const theme = {
   colors: {
@@ -8,6 +8,13 @@ const theme = {
     black: '#030303',
     white: '#fff',
     body: '#2B1C19'
+  },
+  fontSizes: {
+    xs: '1em',
+    sm: '1em',
+    md: '2em',
+    lg: '2em',
+    xl: '3em'
   }
 }
 
@@ -49,15 +56,6 @@ const customConf = {
     xl: 120, // 1920px
   },
 }
-
-export const GlobalStyle = createGlobalStyle`
-  body {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,240,238,1) 100%) no-repeat fixed;
-    font-family: Helvetica;
-    color: ${theme.colors.body};
-    font-size: 16px; 
-  }
-`
 
 export const Theme = ({ children }) => (
   <ThemeProvider theme={{theme, awesomegrid: customConf}}>{children}</ThemeProvider>

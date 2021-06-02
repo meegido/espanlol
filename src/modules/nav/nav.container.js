@@ -22,9 +22,6 @@ export const NavContainer = () => {
           <NavLink href="/">Proyecto</NavLink>
         </li>
       </ListContainer>
-      <p>hola</p>
     </Col>
-
-   
   )
 }

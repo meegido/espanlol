@@ -13,13 +13,15 @@ export const ListContainer = styled.ul`
   ${listStyle}
 `
 
-const navLink = ({theme}) => css`
+const navLink = () => css`
   font-family: 'Tampa';
   text-transform: uppercase;
   text-decoration: none;
 
+
 `
 
 export const NavLink = styled.a`
-  ${navLink}
+  ${navLink};
+  color: ${props => props.theme.colors.body};
 `

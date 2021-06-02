@@ -1,11 +1,9 @@
-import { ThemeProvider } from 'styled-components'
 
-
-const theme = {
+export const theme = {
   colors: {
     darkRed: '#D50E00',
     red: 'EF0000',
-    black: '#030303',
+    black: `#030303`,
     white: '#fff',
     body: '#2B1C19'
   },
@@ -18,7 +16,7 @@ const theme = {
   }
 }
 
-const customConf = {
+export const customConf = {
   mediaQuery: 'only screen',
   columns: {
     xs: 4,
@@ -56,7 +54,3 @@ const customConf = {
     xl: 120, // 1920px
   },
 }
-
-export const Theme = ({ children }) => (
-  <ThemeProvider theme={{theme, awesomegrid: customConf}}>{children}</ThemeProvider>
-)

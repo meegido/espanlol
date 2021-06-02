@@ -8794,6 +8794,11 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
+prettier@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.0.tgz#b6a5bf1284026ae640f17f7ff5658a7567fc0d18"
+  integrity sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==
+
 pretty-bytes@^5.3.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
@@ -9027,6 +9032,11 @@ react-app-polyfill@^2.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
+
+react-awesome-styled-grid@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/react-awesome-styled-grid/-/react-awesome-styled-grid-3.1.1.tgz#2ef07e0b9aaa25a878d288516528b469620ec9d0"
+  integrity sha512-sNvQBy8VznmjQG5AI9wbjMuw75xWOKgdK5SGhcYvl8VTBG+tm/IMFB5h/sMvudKU8KmMeqPs1US/+Oowpm2MjA==
 
 react-dev-utils@^11.0.3:
   version "11.0.4"

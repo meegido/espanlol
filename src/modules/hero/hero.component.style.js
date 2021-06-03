@@ -64,34 +64,34 @@ const buttonPosition = () => css`
 `
 
 const buttonSize = () => css`
+  display: flex;
+  align-items: center;
   text-transform: uppercase;
   font-family: 'Tampa';
   font-size: 1.3em;
   letter-spacing: 0.03em;
-  padding: 10px 56px 10px 21px;
+  padding: 5px 15px 5px 21px;
   background: ${props => props.theme.colors.black};
   box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   color: ${props => props.theme.colors.white};
-
-  &:before {
-    content: '';
-    position: absolute;
-    background-image: url("https://res.cloudinary.com/dekysavu4/image/upload/v1622735298/Espa%C3%B1lol/money-icon_ycqgeq.png");
-    width: 33px;
-    height: 33px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    left: 57%;
-    top: 92.5%;
-  }
-
 `
+
 export const ButtonContainer = styled.div`
   ${buttonPosition}
 `
 
 export const BuyButton = styled.button`
- 
   ${buttonSize}
+`
+
+const iconPosition = () => css`
+  width: 32px;
+  height: 32px;
+  margin-left: .5em;
+
+`
+
+export const MoneyIcon = styled.img`
+  ${iconPosition}
 `

@@ -69,6 +69,10 @@ export const NavLink = styled.a`
   ${navLink};
   color: ${props => props.theme.colors.black};
 
+  ${props => config(props).media['sm']`
+    font-size: 1.2em;
+  `}
+
 `
 
 const burguerStyle = () => css`

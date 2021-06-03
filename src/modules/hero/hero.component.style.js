@@ -5,9 +5,10 @@ const heroSize = () => css`
   background-image: url(https://res.cloudinary.com/dekysavu4/image/upload/v1622728615/Espa%C3%B1lol/JPG%20rgb%2072%20dpi%20%28para%20web%29/hero-sized_uzn9ql.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 120vw;
-  height: 50vh;
-  transform: translate(-80px, 0px);
+  width: 100vw;
+  height: 55vh;
+  background-size: 100%;
+  transform: translate(-30px, 0px);
 
 
   ${props => config(props).media['md']`
@@ -48,7 +49,7 @@ export const TitleContainer = styled.div`
 `
 
 const titleSize = () => css`
-  margin-top: 8em;
+  margin-top: 6em;
   padding: 0 2em;
 
   ${props => config(props).media['md']`
@@ -129,7 +130,7 @@ const sloganContainer = () => css`
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 3em;
+  margin-top: 5em;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 `

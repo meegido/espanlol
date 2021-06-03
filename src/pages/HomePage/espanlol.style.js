@@ -35,16 +35,16 @@ export const customConf = {
   paddingWidth: {
     xs: 1,
     sm: 1,
-    md: 1.5,
-    lg: 1.5,
-    xl: 1.5,
+    md: 0,
+    lg: 0,
+    xl: 0,
   },
   container: {
     xs: 'full', // 'full' = max-width: 100%
     sm: 'full', // 'full' = max-width: 100%
     md: 'full', // 'full' = max-width: 100%
     lg: 90, // max-width: 1440px
-    xl: 90, // max-width: 1440px
+    xl: 120, // max-width: 1440px
   },
   breakpoints: {
     xs: 1,

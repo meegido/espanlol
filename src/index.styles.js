@@ -11,6 +11,12 @@ export const GlobalStyles = createGlobalStyle`
     height: 100%;
     overflow: hidden;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,240,238,1) 100%) no-repeat fixed;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    padding: 0;
   }
 
   @font-face {

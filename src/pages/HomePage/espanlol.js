@@ -13,12 +13,14 @@ export default function Espanlol() {
       <React.Fragment>
         <ThemeProvider theme={theme}>
           <GlobalStyles />
-          <Container style={{padding: 0, margin: 0}}>
-            <Col xs={4} md={8} lg={12} style={{padding: 0, margin: 0}}>
-              <NavContainer />
-              <HeroContainer /> 
-            </Col>
-          </Container>
+          <main>
+            <Container fluid={true} style={{padding: 0, margin: 0}}>
+              <Col debug xs={4} md={8} lg={12} style={{padding: 0, margin: 0}}>
+                <NavContainer />
+                <HeroContainer /> 
+              </Col>
+            </Container>
+          </main>
         </ThemeProvider>
       </React.Fragment>
     </ThemeProvider>

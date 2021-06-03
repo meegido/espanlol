@@ -50,8 +50,8 @@ export const TitleContainer = styled.div`
 
 const titleSize = () => css`
   margin-top: 7em;
-  padding: 0 22em;
   width: 100%;
+  padding: 0 2em;
 
   ${props => config(props).media['md']`
     margin-top: 0;  

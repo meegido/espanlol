@@ -1,8 +1,14 @@
 import React from 'react'
-
+import { Container, Col } from 'react-awesome-styled-grid'
+import { HeroImage } from './hero.component.style'
 
 export const HeroContainer = () => {
     return (
-      <img alt="cajas" src="https://i.ytimg.com/vi/I4nI2WaJDSQ/sddefault.jpg#404_is_fine" />  
+      <Container fluid={true} style={{padding: 0, margin: 0}}>
+        <Col xs={4} md={8} lg={12} style={{padding: 0, margin: 0}}>
+            <HeroImage  />
+        </Col>
+      </Container>
+      
     )
 }

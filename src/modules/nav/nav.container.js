@@ -10,7 +10,7 @@ export const NavContainer = () => {
   return (
     <Container fluid={true} style={{padding: 0, margin: 0}}>
       <Nav align='center' justify={'space-around'}>
-        <ListContainer open={open}>
+        <ListContainer open={open} style={{padding: 0, margin: 0}}>
           <li>
             <NavLink href="/">Disco</NavLink>
           </li>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Col } from 'react-awesome-styled-grid'
-import { HeroImage, HeroTitle, BuyButton, ButtonContainer, MoneyIcon, TitleContainer, HeroText } from './hero.component.style'
+import { 
+  HeroImage, HeroTitle, BuyButton, ButtonContainer, MoneyIcon, TitleContainer, HeroText, SloganContainer, SloganText } from './hero.component.style'
 
 export const HeroContainer = () => {
     return (
@@ -16,7 +17,9 @@ export const HeroContainer = () => {
               <MoneyIcon alt="money-button" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622735298/Espa%C3%B1lol/money-icon_ycqgeq.png" />
             </BuyButton>
           </ButtonContainer>
-          
+          <SloganContainer>
+            <SloganText>Una reflexión sobre la identidad española</SloganText>
+          </SloganContainer>
         </Col>
       </Container>
       

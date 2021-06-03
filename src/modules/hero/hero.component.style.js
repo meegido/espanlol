@@ -48,7 +48,7 @@ export const TitleContainer = styled.div`
 `
 
 const titleSize = () => css`
-  margin-top: 10em;
+  margin-top: 8em;
   padding: 0 2em;
 
   ${props => config(props).media['md']`
@@ -57,6 +57,7 @@ const titleSize = () => css`
 `}
 
   ${props => config(props).media['lg']`
+    margin-top: 1em;  
     padding: 0 34em;
   `}
 `
@@ -65,7 +66,7 @@ export const HeroTitle = styled.img`
   ${titleSize}
 `
 
-const sloganStyle = () => css`
+const titleStyle = () => css`
   font-family: 'Trueno';
   font-size: 16px;
   text-transform: uppercase;
@@ -75,7 +76,7 @@ const sloganStyle = () => css`
 `
 
 export const HeroText = styled.h2`
-  ${sloganStyle}
+  ${titleStyle}
 `
 
 const buttonPosition = () => css`
@@ -122,4 +123,32 @@ const iconPosition = () => css`
 
 export const MoneyIcon = styled.img`
   ${iconPosition}
+`
+
+const sloganContainer = () => css`
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+`
+
+export const SloganContainer = styled.div`
+  ${sloganContainer}
+`
+
+const sloganStyle = () => css`
+  text-transform: uppercase;
+  color: ${props => props.theme.colors.red};
+  font-family: 'Trueno';
+  font-size: 14px;
+  margin: 0;
+  padding: .5em;
+
+  letter-spacing: 0.01em;
+`
+
+export const SloganText = styled.p`
+  ${sloganStyle}
 `

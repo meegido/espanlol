@@ -98,10 +98,12 @@ const buttonSize = () => css`
   font-size: 1.3em;
   letter-spacing: 0.03em;
   padding: 5px 15px 5px 21px;
+  cursor: pointer;
   background: ${props => props.theme.colors.black};
   box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   color: ${props => props.theme.colors.white};
+  opacity: .5;
 `
 
 export const ButtonContainer = styled.div`

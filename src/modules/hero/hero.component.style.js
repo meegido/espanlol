@@ -12,10 +12,10 @@ const heroSize = () => css`
 
   ${props => config(props).media['md']`
     background-repeat: no-repeat;
-    transform: translate(180px, -100px);
+    transform: translate(180px, -110px);
     z-index: -1;
     background-size: 50%;
-    height: 70vh;
+    height: 68vh;
   `}
 
   ${props => config(props).media['lg']`
@@ -35,24 +35,47 @@ export const HeroImage = styled.div`
   ${heroSize}
 `
 
+const titlePosition = () => css`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+`
+
+export const TitleContainer = styled.div`
+  ${titlePosition}
+`
+
 const titleSize = () => css`
   margin-top: 10em;
-  padding-right: 1.5em;
+  padding: 0 2em;
 
   ${props => config(props).media['md']`
-    margin: 0 auto;
-    padding-left: 6em;
-    width: 50vw;
+    margin-top: 0;  
+    padding: 0 20em;
 `}
 
   ${props => config(props).media['lg']`
-    padding-left: 5em;
-    width: 30vw;
+    padding: 0 34em;
   `}
 `
 
 export const HeroTitle = styled.img`
   ${titleSize}
+`
+
+const sloganStyle = () => css`
+  font-family: 'Trueno';
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  margin-top: .3em;
+`
+
+export const HeroText = styled.h2`
+  ${sloganStyle}
 `
 
 const buttonPosition = () => css`
@@ -61,6 +84,10 @@ const buttonPosition = () => css`
   justify-content: center;
   align-content: center;
   align-items: end;
+
+  ${props => config(props).media['lg']`
+    margin-top: 1em;
+  `}
 `
 
 const buttonSize = () => css`
@@ -89,7 +116,6 @@ const iconPosition = () => css`
   width: 32px;
   height: 32px;
   margin-left: .5em;
-
 `
 
 export const MoneyIcon = styled.img`

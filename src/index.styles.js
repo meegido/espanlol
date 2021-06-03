@@ -4,12 +4,18 @@ import NHLTampa from './fonts/NHLTB___.TTF'
 import Trueno from './fonts/TruenoSBd.otf'
 
 export const GlobalStyles = createGlobalStyle`
+  * {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
   body {
     font-family: 'Rasa Regular', sans-serif;
     font-size: 16px; 
     line-height: 117.1%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,240,238,1) 100%) no-repeat fixed;
     margin: 0;
     padding: 0;

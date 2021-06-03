@@ -15,7 +15,7 @@ export default function Espanlol() {
           <GlobalStyles />
           <main>
             <Container fluid={true} style={{padding: 0, margin: 0}}>
-              <Col debug xs={4} md={8} lg={12} style={{padding: 0, margin: 0}}>
+              <Col xs={4} md={8} lg={12} style={{padding: 0, margin: 0}}>
                 <NavContainer />
                 <HeroContainer /> 
               </Col>

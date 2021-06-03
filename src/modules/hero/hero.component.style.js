@@ -2,11 +2,11 @@ import styled, {css} from 'styled-components'
 import {config} from 'react-awesome-styled-grid'
 
 const heroSize = () => css`
-  background-image: url(https://res.cloudinary.com/dekysavu4/image/upload/v1622728615/Espa%C3%B1lol/JPG%20rgb%2072%20dpi%20%28para%20web%29/hero-sized_uzn9ql.png);
+  background-image: url("https://res.cloudinary.com/dekysavu4/image/upload/v1622757055/Espa%C3%B1lol/JPG%20rgb%2072%20dpi%20%28para%20web%29/hero-sized_uzn9ql_k57zrv.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 55vh;
+  height: 40vh;
   background-size: 100%;
   transform: translate(-30px, 0px);
 
@@ -50,7 +50,8 @@ export const TitleContainer = styled.div`
 
 const titleSize = () => css`
   margin-top: 7em;
-  padding: 0 2em;
+  padding: 0 22em;
+  width: 100%;
 
   ${props => config(props).media['md']`
     margin-top: 0;  
@@ -60,6 +61,7 @@ const titleSize = () => css`
   ${props => config(props).media['lg']`
     margin-top: 1em;  
     padding: 0 34em;
+   
   `}
 
   ${props => config(props).media['xl']`

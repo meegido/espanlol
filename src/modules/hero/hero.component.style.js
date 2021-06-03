@@ -5,30 +5,27 @@ const heroSize = () => css`
   background-image: url("https://res.cloudinary.com/dekysavu4/image/upload/v1622757055/Espa%C3%B1lol/JPG%20rgb%2072%20dpi%20%28para%20web%29/hero-sized_uzn9ql_k57zrv.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 40vh;
-  background-size: 100%;
-  transform: translate(-30px, 0px);
+  height: 39vh;
+  background-size: contain;
+  background-position: top;
+  margin-right: 4em;
 
 
   ${props => config(props).media['md']`
     background-repeat: no-repeat;
-    transform: translate(180px, -110px);
     z-index: -1;
-    background-size: 50%;
-    height: 68vh;
+    height: 55vh;
   `}
 
   ${props => config(props).media['lg']`
-    transform: translate(380px, -120px);
-    background-size: 36%;
-  
+    height: 50vh;
+    margin-right: 7em;
   `}
 
   ${props => config(props).media['xl']`
-    transform: translate(500px, -180px);
-    background-size: 43%;
+    background-size: contain;
     height: 75vh;
+    margin-right: 9em;
   `}
 `
 
@@ -55,20 +52,19 @@ const titleSize = () => css`
 
 
   ${props => config(props).media['md']`
-    margin-top: 0;  
+    margin-top: 3em;  
     padding: 0 20em;
 `}
 
   ${props => config(props).media['lg']`
-    margin-top: 1em;  
+    margin-top: 7em;  
     padding: 0 34em;
-   
+    width: 90%;
   `}
 
   ${props => config(props).media['xl']`
-    margin-top: 0;  
+    margin-top: 2.5em;  
     padding: 0 34em;
-    width: 150%;
 `}
 `
 
@@ -78,11 +74,15 @@ export const HeroTitle = styled.img`
 
 const titleStyle = () => css`
   font-family: 'Trueno';
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   line-height: 20px;
   letter-spacing: 0.01em;
   margin-top: .3em;
+
+  ${props => config(props).media['lg']`
+    font-size: 20px;
+  `}
 `
 
 export const HeroText = styled.h2`
@@ -90,7 +90,7 @@ export const HeroText = styled.h2`
 `
 
 const buttonPosition = () => css`
-  margin-top: 1em;
+  margin: 1em 0;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -98,7 +98,12 @@ const buttonPosition = () => css`
 
   ${props => config(props).media['lg']`
     margin-top: 1em;
+    margin-bottom: 2em;
   `}
+
+  ${props => config(props).media['xl']`
+    margin: 1em;
+`}
 `
 
 const buttonSize = () => css`

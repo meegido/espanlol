@@ -50,8 +50,9 @@ export const TitleContainer = styled.div`
 
 const titleSize = () => css`
   margin-top: 7em;
+  padding: 0 1em;
   width: 100%;
-  padding: 0 2em;
+
 
   ${props => config(props).media['md']`
     margin-top: 0;  
@@ -67,6 +68,7 @@ const titleSize = () => css`
   ${props => config(props).media['xl']`
     margin-top: 0;  
     padding: 0 34em;
+    width: 150%;
 `}
 `
 
@@ -104,7 +106,7 @@ const buttonSize = () => css`
   align-items: center;
   text-transform: uppercase;
   font-family: 'Tampa';
-  font-size: 1.3em;
+  font-size: 14px;
   letter-spacing: 0.03em;
   padding: 5px 15px 5px 21px;
   cursor: pointer;

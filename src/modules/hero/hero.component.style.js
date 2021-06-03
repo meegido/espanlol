@@ -27,8 +27,8 @@ const heroSize = () => css`
 
   ${props => config(props).media['xl']`
     transform: translate(500px, -180px);
-    background-size: 33%;
-    height: 70vh;
+    background-size: 43%;
+    height: 75vh;
   `}
 `
 
@@ -49,7 +49,7 @@ export const TitleContainer = styled.div`
 `
 
 const titleSize = () => css`
-  margin-top: 6em;
+  margin-top: 7em;
   padding: 0 2em;
 
   ${props => config(props).media['md']`
@@ -61,6 +61,11 @@ const titleSize = () => css`
     margin-top: 1em;  
     padding: 0 34em;
   `}
+
+  ${props => config(props).media['xl']`
+    margin-top: 0;  
+    padding: 0 34em;
+`}
 `
 
 export const HeroTitle = styled.img`
@@ -105,7 +110,7 @@ const buttonSize = () => css`
   box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   color: ${props => props.theme.colors.white};
-  opacity: .5;
+  opacity: .3;
 `
 
 export const ButtonContainer = styled.div`
@@ -133,6 +138,15 @@ const sloganContainer = () => css`
   margin-top: 5em;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+
+  ${props => config(props).media['md']`
+  margin-top: 2em;  
+
+`}
+
+${props => config(props).media['lg']`
+  margin-top: 1.5em; 
+`}
 `
 
 export const SloganContainer = styled.div`
@@ -146,7 +160,6 @@ const sloganStyle = () => css`
   font-size: 14px;
   margin: 0;
   padding: .5em;
-
   letter-spacing: 0.01em;
 `
 

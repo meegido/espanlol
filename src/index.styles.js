@@ -27,7 +27,8 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'Rasa Regular';
-    src: url(${RasaRegular}) format('truetype');
+    src: local("Rasa Regular"), 
+      url(${RasaRegular}) format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: auto;
@@ -35,7 +36,8 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'Tampa';
-    src: url(${NHLTampa}) format('truetype');
+    src: local("Tampa"), 
+      url(${NHLTampa}) format('truetype');
     font-weight: 800;
     font-style: normal;
     font-display: auto;
@@ -43,7 +45,8 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'Trueno Bold';
-    src: url(${Trueno}) format('opentype');
+    src: local("Trueno Bold"), 
+      url(${Trueno}) format('opentype');
     font-weight: 500;
     font-style: normal;
     font-display: auto;

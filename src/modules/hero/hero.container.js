@@ -1,7 +1,14 @@
 import React from 'react'
 import { Container, Col } from 'react-awesome-styled-grid'
+import { BuyButtonContainer } from '../button/button.container'
 import { 
-  HeroImage, HeroTitle, BuyButton, ButtonContainer, MoneyIcon, TitleContainer, HeroText, SloganContainer, SloganText } from './hero.component.style'
+  HeroImage, 
+  HeroTitle, 
+  TitleContainer, 
+  HeroText, 
+  SloganContainer, 
+  SloganText 
+} from './hero.component.style'
 
 export const HeroContainer = () => {
     return (
@@ -12,11 +19,7 @@ export const HeroContainer = () => {
             <HeroTitle alt="espanlol" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622756829/Espa%C3%B1lol/PORTADA_ESPA%C3%91LOL_OK_2-3_ildbwn_igr3dd.png" />
             <HeroText>Primer álbum de Carlos Gárate</HeroText>
           </TitleContainer>
-          <ButtonContainer>
-            <BuyButton>Comprar
-              <MoneyIcon alt="money-button" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622735298/Espa%C3%B1lol/money-icon_ycqgeq.png" />
-            </BuyButton>
-          </ButtonContainer>
+          <BuyButtonContainer /> 
           <SloganContainer>
             <SloganText>Una reflexión sobre la identidad española</SloganText>
           </SloganContainer>

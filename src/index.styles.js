@@ -27,7 +27,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'Rasa Regular';
-    src: url(${RasaRegular}) format('truetype')
+    src: url(${RasaRegular}) format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: auto;

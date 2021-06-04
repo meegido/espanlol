@@ -1,0 +1,24 @@
+
+  @font-face {
+    font-family: 'Rasa Regular';
+    src: url('./fonts//Rasa-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: 'Tampa';
+    src: url('./fonts//NHLTB___.TTF') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: 'Trueno Bold';
+    src: url('./fonts/TruenoSBd.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: auto;
+  }

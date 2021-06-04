@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-family: 'Rasa Regular', sans-serif;
     font-size: 16px; 
-    line-height: 117.1%;
+    line-height: 24px;
     height: 100%;
     overflow-x: hidden;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,240,238,1) 100%) no-repeat fixed;

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.styles.js';
-import Espanlol from './pages/HomePage/espanlol';
+import Espanlol from './espanlol';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

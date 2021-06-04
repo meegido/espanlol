@@ -43,7 +43,16 @@ export const SocialIcon = styled.img`
   padding: 0 1em;
 
   ${props => config(props).media['sm']`
-    width: 8%;
+    width: 10%;
+  `}
+`
+
+export const SpotifyIcon = styled.img`
+  width: 8%;
+
+  ${props => config(props).media['sm']`
+    width: 5%;
+    padding: 0 1em;
   `}
 `
 
@@ -57,6 +66,11 @@ export const SectionTitle = styled.h2`
 export const SocialWithButtonContainer = styled.div`
   ${socialContainer}
   align-items: center;
+  flex-direction: column;
+
+  ${props => config(props).media['sm']`
+    flex-direction: row;
+  `}
 `
 
 const readButton = () => css`
@@ -66,6 +80,16 @@ const readButton = () => css`
   padding: .5em 1em;
   font-family: 'Tampa', sans-serif;
   font-size: 10px;
+  margin-top: 1em;
+
+  ${props => config(props).media['sm']`
+    flex-direction: row;
+    margin-top: 0;
+  `}
+
+  ${props => config(props).media['lg']`
+    font-size: 14px;
+  `}
 `
 
 export const ReadButton = styled.button`

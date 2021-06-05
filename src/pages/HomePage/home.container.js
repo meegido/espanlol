@@ -5,6 +5,8 @@ import { HeroContainer } from '../../modules/hero/hero.container'
 import { CarouselContainer } from '../../modules/carousel/carousel.container'
 import { DiscContainer } from '../../modules/disc/disc.container'
 import { BookContainer } from '../../modules/book/book.container'
+import { OrientalContainer } from '../../modules/oriental/oriental.container'
+import { CajasContainer } from '../../modules/cajas/cajas.container'
 
 export const HomeContainer = () => {
   return (
@@ -13,7 +15,9 @@ export const HomeContainer = () => {
         <HeroContainer /> 
         <CarouselContainer />
         <DiscContainer />
+        <CajasContainer />
         <BookContainer />
+        <OrientalContainer />
       </Col>
     </Container>
   )

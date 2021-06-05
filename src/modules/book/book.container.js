@@ -15,7 +15,6 @@ import {
 export const BookContainer = () => {
   return (
     <Col
-    debug
       xs={4}
       md={8}
       lg={12}

@@ -5,7 +5,7 @@ import { HeroContainer } from '../../modules/hero/hero.container'
 import { CarouselContainer } from '../../modules/carousel/carousel.container'
 import { DiscContainer } from '../../modules/disc/disc.container'
 import { BookContainer } from '../../modules/book/book.container'
-
+import { OrientalContainer } from '../../modules/oriental/oriental.container'
 export const HomeContainer = () => {
   return (
     <Container fluid={true} style={{padding: 0, margin: 0}}>
@@ -13,6 +13,7 @@ export const HomeContainer = () => {
         <HeroContainer /> 
         <CarouselContainer />
         <DiscContainer />
+        <OrientalContainer />
         <BookContainer />
       </Col>
     </Container>

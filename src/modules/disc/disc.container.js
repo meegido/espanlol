@@ -17,7 +17,7 @@ export const DiscContainer = () => {
       xs={4}
       md={8}
       lg={12}
-      style={{padding: 0, margin: 0, borderBottom: '1px solid black'}}
+      style={{padding: 0, margin: 0}}
     >
       <TitleProfile>Carlos Gárate</TitleProfile>
       <Row justify="center">

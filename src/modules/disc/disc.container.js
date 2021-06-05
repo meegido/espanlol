@@ -45,7 +45,7 @@ export const DiscContainer = () => {
           <SocialContainer>
             <SocialIcon
               alt="Instagram profile"
-              src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816831/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh.png"
+              src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
             />
             <SocialIcon
               alt="Soundcloud profile"

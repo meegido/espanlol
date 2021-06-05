@@ -35,7 +35,7 @@ const socialContainer = () => css`
 
 export const SocialContainer = styled.div`
   ${socialContainer}
-  align-items: baseline;
+  align-items: center;
 `
 
 export const SocialIcon = styled.img`
@@ -47,13 +47,21 @@ export const SocialIcon = styled.img`
   `}
 `
 
-export const SpotifyIcon = styled.img`
+export const ContextoIcon = styled.img`
   width: 8%;
 
   ${props => config(props).media['sm']`
-    width: 12%;
+    width: 15%;
     padding: 0 1em;
   `}
+`
+
+export const WebLink = styled.a`
+  font-family: 'Trueno', sans-serif;
+  font-size: 18px;
+  color: ${props => props.theme.colors.black};
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
 `
 
 export const SectionTitle = styled.h2`
@@ -81,6 +89,7 @@ const readButton = () => css`
   font-family: 'Tampa', sans-serif;
   font-size: 10px;
   margin-top: 1em;
+  letter-spacing: 0.01em;
 
   ${props => config(props).media['sm']`
     flex-direction: row;

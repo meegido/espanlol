@@ -19,6 +19,7 @@ export const GlobalStyles = createGlobalStyle`
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,240,238,1) 100%) no-repeat fixed;
     margin: 0;
     padding: 0;
+    letter-spacing: 0.01em;
   }
 
   ul {

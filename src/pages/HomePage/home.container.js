@@ -4,6 +4,7 @@ import { Container, Col } from 'react-awesome-styled-grid'
 import { HeroContainer } from '../../modules/hero/hero.container'
 import { CarouselContainer } from '../../modules/carousel/carousel.container'
 import { DiscContainer } from '../../modules/disc/disc.container'
+import { BookContainer } from '../../modules/book/book.container'
 
 export const HomeContainer = () => {
   return (
@@ -12,6 +13,7 @@ export const HomeContainer = () => {
         <HeroContainer /> 
         <CarouselContainer />
         <DiscContainer />
+        <BookContainer />
       </Col>
     </Container>
   )

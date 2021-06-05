@@ -62,7 +62,7 @@ export const DiscContainer = () => {
             alt="Cover Españlol"
             src="https://res.cloudinary.com/dekysavu4/image/upload/v1622632727/Espa%C3%B1lol/JPG%20rgb%2072%20dpi%20compressed%20%28para%20email%20y%20webs%20donde%20os%20pidan%20que%20pesen%20poco%29/PORTADA-ESPA%C3%91LOL-OK-2-72_dpi_3000x3000_ad5ibc.jpg"
           />
-        </Col>
+        
         <SocialWithButtonContainer style={{marginTop: '2em'}}>
             <SpotifyIcon
               alt="Read more"
@@ -70,6 +70,7 @@ export const DiscContainer = () => {
             />
             <ReadButton>Leer mas</ReadButton>
           </SocialWithButtonContainer>
+        </Col>
       </Row>
     </Col>
   )

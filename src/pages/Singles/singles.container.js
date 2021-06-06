@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Container, Col } from 'react-awesome-styled-grid'
 
 import { TitleSection } from './singles.container.style'

@@ -3,7 +3,6 @@ import {config} from 'react-awesome-styled-grid'
 
 const heroSize = () => css`
   background-image: url("https://res.cloudinary.com/dekysavu4/image/upload/v1622757055/Espa%C3%B1lol/JPG%20rgb%2072%20dpi%20%28para%20web%29/hero-sized_uzn9ql_k57zrv.png");
-  background-size: contain;
   background-repeat: no-repeat;
   height: 39vh;
   background-size: contain;

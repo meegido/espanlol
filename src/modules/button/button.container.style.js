@@ -25,7 +25,7 @@ const buttonSize = () => css`
   font-family: 'Tampa';
   font-size: 14px;
   letter-spacing: 0.03em;
-  padding: 5px 15px 5px 21px;
+  padding: 3px 15px 1px 21px;
   cursor: pointer;
   background: ${props => props.theme.colors.black};
   box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);

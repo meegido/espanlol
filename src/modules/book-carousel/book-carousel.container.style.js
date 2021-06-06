@@ -10,31 +10,22 @@ export const ArrowsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  margin-top: 1em;
 
   ${props => config(props).media['md']`
     justify-content: center;
   `}
+
+  &::nth-child(1) {
+    color: red;
+  }
 `
 
 export const Arrow = styled.img`
-  width: 80%;
+  width: 100%;
 `
 
-export const ArrowsText = styled.p`
-  font-family: 'Trueno';
-  font-size: 14px;
-  letter-spacing: 0.01em;
-  text-align: center;
-  line-height: 16px;
-
-  ${props => config(props).media['md']`
-    font-size: 16px;
-    line-height: 24px;
-    width: 40%;
-    padding: 0 3em;
-  `}
-
-  ${props => config(props).media['lg']`
-    width: 30%;
-  `}
+export const ButtonsSpace = styled.div`
+  width: 100%;
+  height: 100%;
 `

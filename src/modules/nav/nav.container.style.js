@@ -36,23 +36,26 @@ const listStyle = () => css`
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: transparent;
     position: relative;
     height: 4vh;
     top: 0;
-    margin-right: 25px;
     transition: none;
     transform: none;
 
 
     li {
-      padding-left: 31px;
+      padding-left: 6em;
     }
   
     li:first-child {
       padding-left: 0;
-    }  
+    } 
+    
+    li:last-child {
+      margin-right: 4em;
+    }
   `}
 `
 
@@ -65,7 +68,7 @@ const navLink = () => css`
   text-transform: uppercase;
 `
 
-export const NavLink = styled.a`
+export const NavLink = styled.p`
   ${navLink};
   color: ${props => props.theme.colors.black};
 

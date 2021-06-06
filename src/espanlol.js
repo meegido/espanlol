@@ -1,8 +1,10 @@
 import React from 'react'
+import {Router} from '@reach/router'
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from './index.styles'
 import { customConf, theme } from './espanlol.style'
 import { HomeContainer } from './pages/HomePage/home.container'
+import { ProjectPage } from './pages/project/project.container'
 
 
 export default function Espanlol() {
@@ -12,7 +14,10 @@ export default function Espanlol() {
         <ThemeProvider theme={theme}>
           <GlobalStyles />
           <main>
-            <HomeContainer />
+          <Router>
+            <HomeContainer path="/"/>
+            <ProjectPage path="/project" />
+          </Router>
           </main>
         </ThemeProvider>
       </React.Fragment>

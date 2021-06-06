@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import {Link} from '@reach/router'
+
 import { Container } from 'react-awesome-styled-grid'
 import { ListContainer, NavLink, Nav, Burguer } from './nav.container.style'
 
@@ -12,19 +14,19 @@ export const NavContainer = () => {
       <Nav align='center' justify={'space-around'}>
         <ListContainer open={open} style={{padding: 0, margin: 0}}>
           <li>
-            <NavLink href="/">Disco</NavLink>
+            <Link to="/project">
+              <NavLink href="/">Proyecto</NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink href="/">Libro</NavLink>
+            <Link to="/singles">
+              <NavLink href="/">Singles</NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink href="/">Singles</NavLink>
-          </li>
-          <li>
-            <NavLink href="/">Prensa</NavLink>
-          </li>
-          <li>
-            <NavLink href="/">Proyecto</NavLink>
+            <Link to="/press">
+              <NavLink href="/">Prensa</NavLink>
+            </Link>
           </li>
         </ListContainer>
         <Burguer open={open} onClick={handleClick}>

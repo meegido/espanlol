@@ -46,7 +46,7 @@ const listStyle = () => css`
 
 
     li {
-      padding-left: 6em;
+      padding-left: 4em;
     }
   
     li:first-child {

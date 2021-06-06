@@ -51,7 +51,7 @@ export const SocialProfileContainerSgae = styled.div`
   display: flex;
   flex-direction: row;
   align-content: end;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-end;
   margin-top: 1em;
 `

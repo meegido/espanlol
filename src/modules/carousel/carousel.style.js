@@ -16,6 +16,10 @@ export const ArrowsContainer = styled.div`
   `}
 `
 
+export const Arrow = styled.img`
+  width: 80%;
+`
+
 export const ArrowsText = styled.p`
   font-family: 'Trueno';
   font-size: 14px;

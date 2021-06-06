@@ -7,7 +7,7 @@ import {
   ButtonBack,
   ButtonNext,
 } from 'pure-react-carousel'
-import { Image, ArrowsContainer, ArrowsText } from './carousel.style'
+import { Image, ArrowsContainer, ArrowsText, Arrow } from './carousel.style'
 import 'pure-react-carousel/dist/react-carousel.es.css'
 
 export const CarouselContainer = () => {
@@ -73,14 +73,14 @@ export const CarouselContainer = () => {
           </Slider>
           <ArrowsContainer>
             <ButtonBack style={{background: 'none', border: 'none'}}>
-              <img
+              <Arrow
                   alt=""
                   src="https://res.cloudinary.com/dekysavu4/image/upload/v1622808642/Espa%C3%B1lol/carrousel/arrow-left_yjcw29.png"
                 />
             </ButtonBack>
               <ArrowsText>Españlol es una investigación que ha tomado la forma de un disco y un libro</ArrowsText>
             <ButtonNext style={{background: 'none', border: 'none'}}>
-              <img
+              <Arrow
                   alt=""
                   src="https://res.cloudinary.com/dekysavu4/image/upload/v1622808642/Espa%C3%B1lol/carrousel/arrow-right_euh22w.png"
                 />

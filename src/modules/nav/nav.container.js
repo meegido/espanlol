@@ -14,6 +14,11 @@ export const NavContainer = () => {
       <Nav align='center' justify={'space-around'}>
         <ListContainer open={open} style={{padding: 0, margin: 0}}>
           <li>
+            <Link to="/project">
+              <NavLink href="/">Proyecto</NavLink>
+            </Link>
+          </li>
+          <li>
             <Link to="/singles">
               <NavLink href="/">Singles</NavLink>
             </Link>
@@ -21,11 +26,6 @@ export const NavContainer = () => {
           <li>
             <Link to="/press">
               <NavLink href="/">Prensa</NavLink>
-            </Link>
-          </li>
-          <li>
-            <Link to="/project">
-              <NavLink href="/">Proyecto</NavLink>
             </Link>
           </li>
         </ListContainer>

@@ -5,21 +5,21 @@ import {
   Slider,
   Slide,
   ButtonBack,
-  ButtonNext,
+  ButtonNext
 } from 'pure-react-carousel'
-import { Image, ArrowsContainer, ArrowsText } from './book-carousel.container.style'
+import { Image, ArrowsContainer, Arrow, ButtonsSpace } from './book-carousel.container.style'
 import 'pure-react-carousel/dist/react-carousel.es.css'
 
 export const BookCarouselContainer = () => {
   return (
-    <Row align='center' style={{marginTop: 18}}>
-      <Col xs={4} md={8} lg={12} style={{padding: 0, margin: 0}}>
+    <Row justify='center' style={{marginTop: 18}}>
+      <Col xs={4} md={4} lg={4} style={{padding: '1em', margin: 0}}>
         <CarouselProvider
           naturalSlideWidth={50}
-          naturalSlideHeight={70}
+          naturalSlideHeight={75}
           totalSlides={3}
           infinite={true}
-          isPlaying={true}
+          isPlaying={false}
         >
           <Slider>
             <Slide index={0}>
@@ -43,14 +43,14 @@ export const BookCarouselContainer = () => {
           </Slider>
           <ArrowsContainer>
             <ButtonBack style={{background: 'none', border: 'none'}}>
-              <img
+              <Arrow
                   alt=""
                   src="https://res.cloudinary.com/dekysavu4/image/upload/v1622808642/Espa%C3%B1lol/carrousel/arrow-left_yjcw29.png"
                 />
             </ButtonBack>
-             
+            <ButtonsSpace></ButtonsSpace>
             <ButtonNext style={{background: 'none', border: 'none'}}>
-              <img
+              <Arrow
                   alt=""
                   src="https://res.cloudinary.com/dekysavu4/image/upload/v1622808642/Espa%C3%B1lol/carrousel/arrow-right_euh22w.png"
                 />

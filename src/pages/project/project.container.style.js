@@ -15,7 +15,7 @@ const titleStyle = () => css`
 export const TitleSection = styled.h2`
   ${titleStyle}
   font-family: 'Tampa', sans-serif;
-  font-size: 24px;
+  font-size: 42px;
   text-transform: uppercase;
 
   ${props => config(props).media['sm']`
@@ -69,9 +69,8 @@ export const IndexTitle = styled.h3`
 `
 
 export const IndexLayout = styled(Col)`
+  margin-bottom: 5em;
  ${props => config(props).media['sm']`
        flex-flow: initial;
   `}
-
-
 `

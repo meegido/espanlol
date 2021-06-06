@@ -1,5 +1,5 @@
 import React from 'react'
-import {Col, Row} from 'react-awesome-styled-grid'
+import { Col } from 'react-awesome-styled-grid'
 import { Contact, FooterContainer } from './footer.container.style'
 
 export const Footer = () => {

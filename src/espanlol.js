@@ -5,7 +5,7 @@ import { GlobalStyles } from './index.styles'
 import { customConf, theme } from './espanlol.style'
 import { HomeContainer } from './pages/HomePage/home.container'
 import { ProjectPage } from './pages/project/project.container'
-
+import { SinglesPage } from './pages/Singles/singles.container'
 
 export default function Espanlol() {
   return (
@@ -17,6 +17,7 @@ export default function Espanlol() {
           <Router>
             <HomeContainer path="/"/>
             <ProjectPage path="/project" />
+            <SinglesPage path="/singles" />
           </Router>
           </main>
         </ThemeProvider>

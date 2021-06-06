@@ -21,3 +21,24 @@ export const TitleSection = styled.h2`
     font-size: 42px;
   `}
 `
+
+const socialContainer = () => css`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  margin-top: 2em;
+`
+
+export const PressContainer = styled.div`
+  ${socialContainer}
+`
+
+export const Icon = styled.img`
+  width: 35%;
+  padding: 0 1em;
+
+  ${props => config(props).media['sm']`
+    width: 20%;
+  `}
+`

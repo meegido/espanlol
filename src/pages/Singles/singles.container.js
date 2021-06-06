@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Container, Col, Row } from 'react-awesome-styled-grid'
 
 import { TitleSection, SocialContainer, YoutubeIcon, SpotifyIcon } from './singles.container.style'

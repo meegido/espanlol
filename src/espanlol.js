@@ -6,6 +6,7 @@ import { customConf, theme } from './espanlol.style'
 import { HomeContainer } from './pages/HomePage/home.container'
 import { ProjectPage } from './pages/project/project.container'
 import { SinglesPage } from './pages/Singles/singles.container'
+import { PressPage } from './pages/Press/press.container'
 
 export default function Espanlol() {
   return (
@@ -18,6 +19,7 @@ export default function Espanlol() {
             <HomeContainer path="/"/>
             <ProjectPage path="/project" />
             <SinglesPage path="/singles" />
+            <PressPage path="press" />
           </Router>
           </main>
         </ThemeProvider>

@@ -21,3 +21,32 @@ export const TitleSection = styled.h2`
     font-size: 42px;
   `}
 `
+
+const socialContainer = () => css`
+  display: flex;
+  justify-content: center;
+  align-items: cener;
+  margin-bottom: 1em;
+  margin-top: 2em;
+`
+
+export const SocialContainer = styled.div`
+  ${socialContainer}
+`
+
+export const YoutubeIcon = styled.img`
+  width: 25%;
+
+  ${props => config(props).media['sm']`
+    width: 15%;
+  `}
+`
+
+export const SpotifyIcon = styled.img`
+  width: 15%;
+  padding: 0 1em;
+
+  ${props => config(props).media['sm']`
+    width: 12%;
+  `}
+`

@@ -45,11 +45,19 @@ const bookIndexPosition = () => css`
 
 export const BookIndex = styled.div`
   ${bookIndexPosition}
-  padding-left: 3em;
+  padding-right: 3em;
+
+  ${props => config(props).media['md']`
+      padding-left: 2em;
+  `}
 `
 
 export const DiscIndex = styled.div`
-  padding-right: 3em;
+  padding-left: 3em;
+
+  ${props => config(props).media['md']`
+      padding-right: 2em;
+  `}
 `
 
 const indexTitle = () => css`
@@ -62,6 +70,8 @@ export const IndexTitle = styled.h3`
 
 export const IndexLayout = styled(Col)`
  ${props => config(props).media['sm']`
-       flex-flow: wrap-reverse;
+       flex-flow: initial;
   `}
+
+
 `

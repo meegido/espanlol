@@ -1,6 +1,7 @@
 import React from 'react'
-import {Container, Col, Row} from 'react-awesome-styled-grid'
-import {NavContainer} from '../../modules/nav/nav.container'
+import { Container, Col, Row } from 'react-awesome-styled-grid'
+import { NavContainer } from '../../modules/nav/nav.container'
+import { BookCarouselContainer } from '../../modules/book-carousel/book-carousel.container'
 import {
   Image,
   TitleSection,
@@ -65,9 +66,9 @@ export const ProjectPage = () => {
         <Row justify="center">
           <IndexLayout
             xs={4}
-            md={4}
-            lg={4}
-            style={{padding: '0 2em'}}
+            md={6}
+            lg={8}
+            style={{padding: '0'}}
             justify="center"
           >
             <DiscIndex>
@@ -102,6 +103,12 @@ export const ProjectPage = () => {
             </BookIndex>
           </IndexLayout>
         </Row>
+      </Col>
+      <Col xs={4} md={4} lg={6} style={{padding: '0 2em'}}>
+        <Row justify='center'>
+          <BookCarouselContainer />
+        </Row>
+      
       </Col>
     </Container>
   )

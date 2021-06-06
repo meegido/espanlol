@@ -36,7 +36,7 @@ const listStyle = () => css`
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: transparent;
     position: relative;
     height: 4vh;

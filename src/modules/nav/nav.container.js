@@ -12,12 +12,6 @@ export const NavContainer = () => {
       <Nav align='center' justify={'space-around'}>
         <ListContainer open={open} style={{padding: 0, margin: 0}}>
           <li>
-            <NavLink href="/">Disco</NavLink>
-          </li>
-          <li>
-            <NavLink href="/">Libro</NavLink>
-          </li>
-          <li>
             <NavLink href="/">Singles</NavLink>
           </li>
           <li>

@@ -26,10 +26,10 @@ export const TeamContainer = () => {
     xs={4}
     md={8}
     lg={12}
-    style={{padding: 0, margin: 0, borderBottom: '1px solid black'}}
+    style={{padding: 0, margin: 0}}
     >
       <TeamTitle>Equipo</TeamTitle>
-      <Row justify="center">
+      <Row justify="center"  style={{marginBottom: '3em'}}>
         <Col xs={4} md={4} lg={4} style={{padding: '0 2em'}}>
             <ul>
               <Person>

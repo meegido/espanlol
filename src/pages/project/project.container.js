@@ -4,6 +4,7 @@ import { NavContainer } from '../../modules/nav/nav.container'
 import { BookCarouselContainer } from '../../modules/book-carousel/book-carousel.container'
 import { BuyButtonContainer } from '../../modules/button/button.container'
 import { TeamContainer } from '../../modules/team/team.container'
+import { Footer } from '../../modules/footer/footer.container'
 
 import {
   Image,
@@ -109,9 +110,8 @@ export const ProjectPage = () => {
       </Col>
       <BookCarouselContainer />
       <BuyButtonContainer />
-     
-          <TeamContainer />
-      
+      <TeamContainer />
+      <Footer />
     </Container>
   )
 }

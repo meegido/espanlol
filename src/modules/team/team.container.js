@@ -180,7 +180,7 @@ export const TeamContainer = () => {
               </Person>
               <Person>
                 <Name>Mercedes Egido</Name>
-                <Rol>Diseño Web</Rol>
+                <Rol>Programación y diseño Web</Rol>
               </Person>
               <Person>
               <Name>@somosaguacateymango </Name>

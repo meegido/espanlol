@@ -50,3 +50,12 @@ export const SpotifyIcon = styled.img`
     width: 12%;
   `}
 `
+
+const image = () => css`
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+  margin-top: 3em;
+`
+
+export const SingleImage = styled.img`
+  ${image}
+`

@@ -53,18 +53,19 @@ const titleSize = () => css`
   ${props => config(props).media['md']`
     margin-top: 3em;  
     padding: 0 20em;
+    width: 95%;
 `}
 
   ${props => config(props).media['lg']`
     margin-top: 7em;  
     padding: 0 34em;
-    width: 90%;
+    width: 100%;
   `}
 
   ${props => config(props).media['xl']`
     margin-top: 2.5em;  
     padding: 0 34em;
-`}
+  `}
 `
 
 export const HeroTitle = styled.img`

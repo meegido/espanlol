@@ -1,4 +1,4 @@
-import styled, {css} from 'styled-components'
+import styled from 'styled-components'
 import {config} from 'react-awesome-styled-grid'
 
 export const Image = styled.img`

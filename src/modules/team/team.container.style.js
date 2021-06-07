@@ -51,7 +51,7 @@ export const SocialProfileContainerSgae = styled.div`
   display: flex;
   flex-direction: row;
   align-content: end;
-  align-items: baseline;
+  align-items: end;
   justify-content: flex-end;
   margin-top: 1em;
 `
@@ -93,7 +93,7 @@ export const SocialProfileSoundcloud = styled.img`
 
 export const SocialProfileSgae = styled.img`
   width: 15%;
-
+  margin-top: .2em;
   ${props => config(props).media['sm']`
     width: 15%;
   `}

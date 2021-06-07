@@ -18,6 +18,7 @@ export const HeroContainer = () => {
           <TitleContainer>
             <HeroTitle alt="espanlol" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622756829/Espa%C3%B1lol/PORTADA_ESPA%C3%91LOL_OK_2-3_ildbwn_igr3dd.png" />
             <HeroText>Primer álbum de Carlos Gárate</HeroText>
+            <HeroText>Lanamento 11 de junio</HeroText>
           </TitleContainer>
           <BuyButtonContainer /> 
           <SloganContainer>

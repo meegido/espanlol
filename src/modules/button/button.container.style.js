@@ -25,11 +25,12 @@ const buttonSize = () => css`
   font-family: 'Tampa';
   font-size: 14px;
   letter-spacing: 0.03em;
-  padding: 3px 15px 1px 21px;
+  padding: 5px 15px 3px 21px;
   cursor: pointer;
-  background: ${props => props.theme.colors.black};
-  box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
+  background: #7E7E7E;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  border: none;
   color: ${props => props.theme.colors.white};
   opacity: .3;
 `

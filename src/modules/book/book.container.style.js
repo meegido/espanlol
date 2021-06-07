@@ -29,18 +29,27 @@ export const ProfileImage = styled.img`
 const socialContainer = () => css`
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
   margin-bottom: 2em;
-  
 `
 
 export const SocialContainer = styled.div`
   ${socialContainer}
-  align-items: center;
+  
 `
 
 export const SocialIcon = styled.img`
-  width: 15%;
+  width: 100%;
   padding: 0 1em;
+
+  ${props => config(props).media['sm']`
+    width: 100%;
+  `}
+`
+
+export const SocialLink = styled.a`
+   width: 15%;
 
   ${props => config(props).media['sm']`
     width: 12%;
@@ -103,4 +112,12 @@ const readButton = () => css`
 
 export const ReadButton = styled.button`
   ${readButton}
+`
+const bookImage = () => css`
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  padding-top: 2em;
+`
+export const BookImage = styled.img`
+  ${bookImage}
 `

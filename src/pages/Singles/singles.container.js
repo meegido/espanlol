@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-awesome-styled-grid'
 
-import { TitleSection, SocialContainer, YoutubeIcon, SpotifyIcon } from './singles.container.style'
+import { TitleSection, SocialContainer, YoutubeIcon, SpotifyIcon, SingleImage } from './singles.container.style'
 import { NavContainer } from '../../modules/nav/nav.container'
 import { Footer } from '../../modules/footer/footer.container'
 
@@ -13,7 +13,7 @@ export const SinglesPage = () => {
         <TitleSection>Proyecto</TitleSection>
         <Row justify="center" style={{marginBottom: '2em'}}>
           <Col xs={4} md={4} lg={6} style={{ padding: '0 2em' }}>
-            <img alt="Cajas cover" style={{ marginTop: '3em'}} src="https://res.cloudinary.com/dekysavu4/image/upload/v1622970160/Espa%C3%B1lol/Logo-beige-72dpi_Low-resolution-email_okwsnm.jpg" />
+            <SingleImage alt="Cajas cover" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622970160/Espa%C3%B1lol/Logo-beige-72dpi_Low-resolution-email_okwsnm.jpg" />
             <SocialContainer>
               <SpotifyIcon
                 alt="Spotify profile"
@@ -31,7 +31,7 @@ export const SinglesPage = () => {
         </Row>
         <Row justify="center" style={{ borderTop: '1px solid black' }}>
           <Col xs={4} md={4} lg={6} style={{padding: '0 2em'}}>
-            <img  style={{ marginTop: '3em'}} alt="Oriental cover" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622970135/Espa%C3%B1lol/portada_oriental_gg1ql5.jpg" />
+            <SingleImage alt="Oriental cover" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622970135/Espa%C3%B1lol/portada_oriental_gg1ql5.jpg" />
             <SocialContainer>
               <SpotifyIcon
                 alt="Spotify profile"

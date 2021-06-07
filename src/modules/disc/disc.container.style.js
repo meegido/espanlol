@@ -29,8 +29,17 @@ export const ProfileImage = styled.img`
 const socialContainer = () => css`
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
   margin-bottom: 2em;
-  
+`
+
+const recordImage = () => css`
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+  width: 100%;
+`
+export const RecordImage = styled.img`
+  ${recordImage}
 `
 
 export const SocialContainer = styled.div`
@@ -39,19 +48,19 @@ export const SocialContainer = styled.div`
 `
 
 export const SocialIcon = styled.img`
-  width: 15%;
+  width: 100%;
   padding: 0 1em;
 
   ${props => config(props).media['sm']`
-    width: 12%;
+    width: 100%;
   `}
 `
 
 export const SpotifyIcon = styled.img`
-  width: 8%;
+  width: 80%;
 
   ${props => config(props).media['sm']`
-    width: 12%;
+    width: 100%;
     padding: 0 1em;
   `}
 `
@@ -70,6 +79,14 @@ export const SocialWithButtonContainer = styled.div`
 
   ${props => config(props).media['sm']`
     flex-direction: row;
+  `}
+`
+
+export const SocialLink = styled.a`
+   width: 15%;
+
+  ${props => config(props).media['sm']`
+    width: 12%;
   `}
 `
 

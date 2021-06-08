@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "@reach/router"
 import {Col, Row} from 'react-awesome-styled-grid'
 import {
   TitleProfile,
@@ -69,8 +70,9 @@ export const DiscContainer = () => {
               src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816589/Espa%C3%B1lol/iconos/logo-spotify-icon-4096_d6hdlj.png"
             />
           </SocialLink>
-            
-            <ReadButton>Leer mas</ReadButton>
+            <Link to="/project">
+              <ReadButton>Leer mas</ReadButton>
+            </Link>
         </SocialWithButtonContainer>
         </Col>
       </Row>

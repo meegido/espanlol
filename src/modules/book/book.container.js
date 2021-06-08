@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "@reach/router"
 import {Col, Row} from 'react-awesome-styled-grid'
 import {
   TitleProfile,
@@ -34,7 +35,9 @@ export const BookContainer = () => {
               alt="Read more"
               src="https://res.cloudinary.com/dekysavu4/image/upload/v1622817048/Espa%C3%B1lol/iconos/RevistaCtxt_ve9q96.png"
             />
-            <ReadButton>Leer mas</ReadButton>
+            <Link to="/project">
+              <ReadButton>Leer mas</ReadButton>
+            </Link>
           </SocialWithButtonContainer>
           </Col>
       </Row>

@@ -15,12 +15,12 @@ export default function Espanlol() {
         <ThemeProvider theme={theme}>
           <GlobalStyles />
           <main>
-          <Router>
-            <HomeContainer path="/"/>
-            <ProjectPage path="/project" />
-            <SinglesPage path="/singles" />
-            <PressPage path="press" />
-          </Router>
+            <Router>
+              <HomeContainer path="/"/>
+              <ProjectPage path="/project" />
+              <SinglesPage path="/singles" />
+              <PressPage path="press" />
+            </Router>
           </main>
         </ThemeProvider>
       </React.Fragment>

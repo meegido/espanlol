@@ -44,7 +44,7 @@ export const SocialIcon = styled.img`
   padding: 0 1em;
 
   ${props => config(props).media['sm']`
-    width: 100%;
+    width: 88%;
   `}
 `
 

@@ -4,7 +4,7 @@ import {Row} from 'react-awesome-styled-grid'
 
 const fontStyle = () => css`
   font-family: 'Tampa', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
 
   ${props => config(props).media['md']`

@@ -17,7 +17,7 @@ export const CarouselContainer = () => {
         <CarouselProvider
           naturalSlideWidth={100}
           naturalSlideHeight={60}
-          totalSlides={8}
+          totalSlides={10}
           infinite={true}
           isPlaying={true}
         >
@@ -25,51 +25,64 @@ export const CarouselContainer = () => {
             <Slide index={0}>
               <Image
                 alt=""
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622726640/Espa%C3%B1lol/carrousel/11_c0jmb1.jpg"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091671/Espa%C3%B1lol/carrousel%20definitivo/Untitled-28_zs3qz2.jpg"
               />
             </Slide>
             <Slide index={1}>
               <Image
                 alt=""
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622726569/Espa%C3%B1lol/carrousel/10_neywma.jpg"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091671/Espa%C3%B1lol/carrousel%20definitivo/Untitled-25_ti7hqb.jpg"
               />
             </Slide>
             <Slide index={2}>
               <Image
                 alt=""
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622712570/Espa%C3%B1lol/carrousel/9_ouz4vx.jpg"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091669/Espa%C3%B1lol/carrousel%20definitivo/Untitled-24_jq3qhs.jpg"
               />
             </Slide>
             <Slide index={3}>
               <Image
                 alt=""
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622711929/Espa%C3%B1lol/carrousel/8_kq9pja.jpg"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091669/Espa%C3%B1lol/carrousel%20definitivo/Untitled-27_cty23u.jpg"
               />
             </Slide>
             <Slide index={4}>
               <Image
                 alt=""
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622711675/Espa%C3%B1lol/carrousel/6seis_aq6sqy.jpg"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091656/Espa%C3%B1lol/carrousel%20definitivo/Untitled-3_eru27v.jpg"
               />
             </Slide>
             <Slide index={5}>
               <Image
                 alt=""
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622633724/Espa%C3%B1lol/carrousel/dos_nwbldx.jpg"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091669/Espa%C3%B1lol/carrousel%20definitivo/Untitled-29_bppk4h.jpg"
               />
             </Slide>
             <Slide index={6}>
               <Image
                 alt=""
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622633720/Espa%C3%B1lol/carrousel/uno_xfsqar.jpg"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091655/Espa%C3%B1lol/carrousel%20definitivo/untitled-21_kogtsy.jpg"
               />
             </Slide>
             <Slide index={7}>
               <Image
                 alt=""
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622633703/Espa%C3%B1lol/carrousel/cuatro_ffnwiz.jpg"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091654/Espa%C3%B1lol/carrousel%20definitivo/Untitled-22_syiryl.jpg"
               />
             </Slide>
+            <Slide index={8}>
+              <Image
+                alt=""
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091648/Espa%C3%B1lol/carrousel%20definitivo/Untitled-23_c19qmh.jpg"
+              />
+            </Slide>
+            <Slide index={9}>
+              <Image
+                alt=""
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1623091640/Espa%C3%B1lol/carrousel%20definitivo/Untitled-17_vfqndz.jpg"
+              />
+            </Slide>
+            
           </Slider>
           <ArrowsContainer>
             <ButtonBack style={{background: 'none', border: 'none'}}>

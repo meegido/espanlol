@@ -54,7 +54,7 @@ export const YoutubeIcon = styled.img`
   height: 100%;
 
   ${props => config(props).media['sm']`
-    width: 40%;
+    width: 30%;
   `}
 `
 
@@ -63,7 +63,7 @@ export const SpotifyIcon = styled.img`
   height: 100%;
 
   ${props => config(props).media['sm']`
-    width: 15%;
+    width: 10%;
   `}
 `
 

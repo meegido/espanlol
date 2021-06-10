@@ -92,10 +92,10 @@ export const SocialProfileSoundcloud = styled.img`
 `
 
 export const SocialProfileSgae = styled.img`
-  width: 15%;
+  width: 52%;
   margin-top: .2em;
   ${props => config(props).media['sm']`
-    width: 15%;
+    width: 35%;
   `}
 `
 

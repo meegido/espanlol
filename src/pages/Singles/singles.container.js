@@ -27,10 +27,15 @@ export const SinglesPage = () => {
                   src="https://res.cloudinary.com/dekysavu4/image/upload/v1622996626/Espa%C3%B1lol/iconos/youtube-logo-0_llcgyw_wcauew.png"
                 />
               </AlginIconLeft>
-             
             </SocialContainer>
-            <p>Oriental es un tema en el que partiendo de un sample de piano del compositor clásico Enrique Granados, Carlos construye una canción que se acerca a la épica de la electrónica más trancera, 
-              en su revisión de la música popular, un homenaje que se pone de relieve en cada track del álbum. Oriental presenta también un vídeo dirigido por Matías Uris y rodado en la provincia de Ciudad Real en donde destaca la colaboración en el rodaje de vecinos de las diferentes localizaciones donde se grabó. Un vídeo construido a través del imaginario de Francisco de Goya y Lucientes, que cuenta con la Dirección de arte de Virginia Lázaro y Matías Uris
+            <p>Cajas Destemplás es el primer single de Españlol que se edita el viernes 16 de abril de 2021. En
+            esta canción compuesta por Carlos Gárate se une la voz de Niño de Elche, la letra escrita por
+            Virginia Lázaro, junto a un vídeo a cargo de Matías Uris, con vestuario de Jorge López y con la
+            aparición del actor Omar Ayuso. Una canción que nos introduce en el universo de Españlol.
+            </p>
+            <p>“Echar con cajas destempladas”, es un gesto de descrédito y deshonra. En esta canción se habla
+            de cómo nos construimos como sujetos a través de la vergüenza, y de su reverso, a través de
+            intentar evitarla mostrando que seguimos las normas.
             </p>
           </Col>
         </Row>
@@ -51,14 +56,8 @@ export const SinglesPage = () => {
                 />
               </AlginIconLeft>
             </SocialContainer>
-            <p>Cajas Destemplás es el primer single de Españlol que se edita el viernes 16 de abril de 2021. En
-            esta canción compuesta por Carlos Gárate se une la voz de Niño de Elche, la letra escrita por
-            Virginia Lázaro, junto a un vídeo a cargo de Matías Uris, con vestuario de Jorge López y con la
-            aparición del actor Omar Ayuso. Una canción que nos introduce en el universo de Españlol.
-            </p>
-            <p>“Echar con cajas destempladas”, es un gesto de descrédito y deshonra. En esta canción se habla
-            de cómo nos construimos como sujetos a través de la vergüenza, y de su reverso, a través de
-            intentar evitarla mostrando que seguimos las normas.
+            <p>Oriental es un tema en el que partiendo de un sample de piano del compositor clásico Enrique Granados, Carlos construye una canción que se acerca a la épica de la electrónica más trancera, 
+              en su revisión de la música popular, un homenaje que se pone de relieve en cada track del álbum. Oriental presenta también un vídeo dirigido por Matías Uris y rodado en la provincia de Ciudad Real en donde destaca la colaboración en el rodaje de vecinos de las diferentes localizaciones donde se grabó. Un vídeo construido a través del imaginario de Francisco de Goya y Lucientes, que cuenta con la Dirección de arte de Virginia Lázaro y Matías Uris
             </p>
           </Col>
         </Row>

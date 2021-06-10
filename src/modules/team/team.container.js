@@ -200,7 +200,7 @@ export const TeamContainer = () => {
             <p style={{marginRight: '.5em'}}>Gracias a</p>
             <SocialProfileSgae
               alt="sgae"
-              src="https://res.cloudinary.com/dekysavu4/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1622816643/Espa%C3%B1lol/iconos/iu_txzdta.png"
+              src="https://res.cloudinary.com/dekysavu4/image/upload/v1623266569/Espa%C3%B1lol/iconos/logoFSGAE_pantone282C_ga7keg.png"
             />
           </SocialProfileContainerSgae>
         </Col>

@@ -30,13 +30,25 @@ export const DiscContainer = () => {
             src="https://res.cloudinary.com/dekysavu4/image/upload/v1622818575/Espa%C3%B1lol/carlosgarate_awn0si.jpg"
           />
           <p>
-            Carlos Gárate inicia su trayectoria oficial presentando su primer álbum <em>Españlol</em>, aunque ha
-            desarrollado la mayor parte de su carrera como compositor para danza y teatro, y colaborado en
-            diversos proyectos musicales, Gárate publica ahora Españlol, su primer álbum. El disco empieza
-            a tomar forma tras residir durante más de cinco años en Inglaterra, ubicación desde donde
-            empieza a interrogarse sobre lo que rodea al concepto de lo español. Así, a su vuelta a Madrid y
-            tras tres años de investigación y trabajo de composición, publica ahora un disco autoproducido
-            en el que cuestiona a través de la música lo que entendemos por identidad española.
+            Carlos Gárate Marquerie (Madrid, 1989) es un artista sonoro y músico que vive y trabaja en Madrid. 
+            Completó sus estudios de arte sonoro y diseño de sonido en la Universidad de Artes de Londres. Carlos compone música para danza 
+            y teatro trabajando junto a artistas como Elena Córdoba, el colectivo La Imperfecta, Lara Brown o participando en la composición 
+            musical y en la gira de Grito Pelao junto a Silvia Perez Cruz y Rocío Molina. Esta última le ha llevado a tocar en algunos de los 
+            teatros más prestigiosos de España y Francia como el Théâtre National de Chaillot en París, Los teatros del Canal en Madrid, La Maestranza en 
+            Sevilla o el Teatre Grec en Barcelona.
+          </p>
+          <p>
+            En junio de 2021 inicia su trayectoria en solitario presentando su primer álbum “Españlol”. Disco que empieza a tomar forma tras residir durante más de cinco años en Inglaterra, 
+            ubicación desde donde empieza a interrogarse sobre lo que rodea al concepto de lo español. Así, a su vuelta a Madrid y tras tres años de investigación y trabajo de composición, 
+            publica ahora un disco autoproducido en el que cuestiona a través de la música lo que entendemos por identidad española. En él colaboran artistas como Virginia Lázaro, Toni Quiroga, 
+            Matias Uris o Niño de Elche.
+          </p>
+          <p>
+            Durante 2021 y 2022 verán la luz varias colaboraciones en las que Carlos colabora como compositor y productor musical, así como algunas bandas sonoras para cine y danza.
+          </p>
+          <p>
+            Su trabajo ha sido mostrado en España, Grecia, Francia, Colombia y el Reino Unido. Además ha sido invitado por la Universidad de Basilea en Suiza y el festival In-Sonora 
+            de Madrid para hablar sobre su investigación en torno a la conexión entre el Antropoceno y el sonido del subsuelo.
           </p>
           <SocialContainer>
             <SocialLink href="https://www.instagram.com/carlosgaratemarquerie/">

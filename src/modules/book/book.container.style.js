@@ -44,12 +44,12 @@ export const SocialIcon = styled.img`
   padding: 0 1em;
 
   ${props => config(props).media['sm']`
-    width: 88%;
+    width: 80%;
   `}
 `
 
 export const SocialLink = styled.a`
-   width: 15%;
+   width: 20%;
 
   ${props => config(props).media['sm']`
     width: 12%;

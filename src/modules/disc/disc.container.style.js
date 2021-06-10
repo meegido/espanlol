@@ -48,18 +48,21 @@ export const SocialContainer = styled.div`
 `
 
 export const SocialIcon = styled.img`
-  width: 100%;
+  width: 75%;
 
   ${props => config(props).media['sm']`
-    width: 50%;
+    width: 35%;
   `}
 `
 
 export const SpotifyIcon = styled.img`
-  width: 100%;
+  width: 75%;
+  margin-left: .3em;
 
   ${props => config(props).media['sm']`
+    width: 85%;
     padding: 0 1em;
+    
   `}
 `
 
@@ -82,7 +85,6 @@ export const SocialWithButtonContainer = styled.div`
 
 export const SocialLink = styled.a`
    width: 15%;
-   height: 80%;
 
   ${props => config(props).media['sm']`
     width: 12%;

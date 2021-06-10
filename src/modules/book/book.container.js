@@ -9,7 +9,6 @@ import {
   SectionTitle,
   ReadButton,
   SocialWithButtonContainer,
-  ContextoIcon,
   WebLink,
   BookImage,
   SocialLink
@@ -53,7 +52,9 @@ export const BookContainer = () => {
                 src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
               />
             </SocialLink>
-            <WebLink href="http://virginialazaro.com">Web</WebLink>
+            <a href="https://www.virginialazaro.com/" target="blank">
+              <WebLink href="http://virginialazaro.com">Web</WebLink>
+            </a>
           </SocialContainer>
         </Col>
       </Row>

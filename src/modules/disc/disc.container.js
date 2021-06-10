@@ -45,6 +45,12 @@ export const DiscContainer = () => {
                 src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
               />
             </SocialLink>
+            <SocialLink href="https://open.spotify.com/artist/4fLBliL0dQYGhPgTnetHAZ?si=-WFUKhQCTMiDWf4TmQ90-w&dl_branch=1">
+            <SpotifyIcon
+              alt="Spotify profile"
+              src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816589/Espa%C3%B1lol/iconos/logo-spotify-icon-4096_d6hdlj.png"
+            />
+            </SocialLink>
           </SocialContainer>
         </Col>
       </Row>

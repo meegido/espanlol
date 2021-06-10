@@ -24,8 +24,7 @@ export const TitleSection = styled.h2`
 
 const socialContainer = () => css`
   display: flex;
-  justify-content: center;
-  align-items: cener;
+  align-items: center;
   margin-bottom: 1em;
   margin-top: 2em;
 `
@@ -34,20 +33,37 @@ export const SocialContainer = styled.div`
   ${socialContainer}
 `
 
+const alignIcons = () => `
+  display: flex;
+
+`
+
+export const AlginIconRight = styled.a`
+  ${alignIcons}
+  justify-content: flex-end;
+  margin-right: 2em;
+`
+
+export const AlginIconLeft = styled.a`
+  ${alignIcons}
+  margin-right: 3em;
+`
+
 export const YoutubeIcon = styled.img`
-  width: 25%;
+  width: 50%;
+  height: 100%;
 
   ${props => config(props).media['sm']`
-    width: 15%;
+    width: 40%;
   `}
 `
 
 export const SpotifyIcon = styled.img`
-  width: 15%;
-  padding: 0 1em;
+  width: 25%;
+  height: 100%;
 
   ${props => config(props).media['sm']`
-    width: 12%;
+    width: 15%;
   `}
 `
 

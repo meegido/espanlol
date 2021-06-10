@@ -45,12 +45,6 @@ export const DiscContainer = () => {
                 src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
               />
             </SocialLink>
-            <SocialLink href="https://soundcloud.com/carlos-g-rate">
-              <SocialIcon
-                alt="Soundcloud profile"
-                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816760/Espa%C3%B1lol/iconos/580b57fcd9996e24bc43c537_xr3vsl.png"
-              />
-            </SocialLink>
           </SocialContainer>
         </Col>
       </Row>

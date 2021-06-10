@@ -56,14 +56,14 @@ export const SocialLink = styled.a`
   `}
 `
 
-export const ContextoIcon = styled.img`
-  width: 8%;
+// export const ContextoIcon = styled.img`
+//   width: 8%;
 
-  ${props => config(props).media['sm']`
-    width: 15%;
-    padding: 0 1em;
-  `}
-`
+//   ${props => config(props).media['sm']`
+//     width: 15%;
+//     padding: 0 1em;
+//   `}
+// `
 
 export const WebLink = styled.a`
   font-family: 'Trueno', sans-serif;

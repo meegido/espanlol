@@ -64,6 +64,7 @@ export const DiscContainer = () => {
             />
           
           <SocialWithButtonContainer style={{marginTop: '2em'}}>
+           {/* enlace a disco */}
           <SocialLink href="">
             <SpotifyIcon
               alt="Read more"

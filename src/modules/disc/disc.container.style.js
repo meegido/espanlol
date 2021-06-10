@@ -51,7 +51,7 @@ export const SocialIcon = styled.img`
   width: 75%;
 
   ${props => config(props).media['sm']`
-    width: 35%;
+    width: 45%;
   `}
 `
 

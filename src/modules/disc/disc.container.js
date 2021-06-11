@@ -76,8 +76,7 @@ export const DiscContainer = () => {
             />
           
           <SocialWithButtonContainer style={{marginTop: '2em'}}>
-           {/* enlace a disco */}
-          <SocialLink href="">
+          <SocialLink href="https://open.spotify.com/album/4XF2pXXEab8kWc3OBuz1kA?si=X37qjCabRIaoHQeI_rdDEA&dl_branch=1" target="blank">
             <SpotifyIcon
               alt="Read more"
               src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816589/Espa%C3%B1lol/iconos/logo-spotify-icon-4096_d6hdlj.png"

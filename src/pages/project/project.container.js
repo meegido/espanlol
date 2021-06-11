@@ -76,7 +76,7 @@ export const ProjectPage = () => {
             justify="center"
           >
             <DiscIndex>
-              <IndexTitle>Español (Disco)</IndexTitle>
+              <IndexTitle>Españlol (Disco)</IndexTitle>
               <ul>
                 <li>1 La Tarara</li>
                 <li>2 Cajas destemplás</li>
@@ -92,7 +92,7 @@ export const ProjectPage = () => {
             </DiscIndex>
 
             <BookIndex>
-              <IndexTitle>Español (Libro)</IndexTitle>
+              <IndexTitle>Españlol (Libro)</IndexTitle>
               <ul>
                 <li>La materia de la historia 1</li>
                 <li>Un hábito de la mente 2</li>

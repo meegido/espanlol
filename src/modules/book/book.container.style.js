@@ -65,7 +65,7 @@ export const SocialLink = styled.a`
 //   `}
 // `
 
-export const WebLink = styled.a`
+export const WebLink = styled.p`
   font-family: 'Trueno', sans-serif;
   font-size: 18px;
   color: ${props => props.theme.colors.black};

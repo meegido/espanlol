@@ -148,6 +148,10 @@ export const TeamContainer = () => {
                 </SocialProfileContainerSecondary>
               </Person>
               <Person>
+                <Name>Mireia Beltrá</Name>
+                <Rol>Cantante</Rol>
+              </Person>
+              <Person>
                 <Name>@rell_brl</Name>
                 <Rol>Mezcla</Rol>
                 <SocialProfileContainerSecondary>

@@ -23,10 +23,15 @@ const socialContainer = () => css`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  
 `
 export const SocialProfileContainerPrincipal = styled.div`
   ${socialContainer}
+  width: 80%;
+`
+export const SocialProfileContainerMedium = styled.div`
+  ${socialContainer}
+  width: 60%;
 `
 
 export const SocialContainerSmall = styled.div`

@@ -6,6 +6,7 @@ import {
   SocialProfileContainerPrincipal,
   SocialProfileContainerSecondary,
   SocialProfileContainerSgae,
+  SocialProfileContainerMedium,
   SocialContainerSmall,
   SocialProfile,
   SocialProfileYoutube,
@@ -35,37 +36,31 @@ export const TeamContainer = () => {
               <Person>
                 <Name>Carlos Gárate</Name>
                 <Rol>Director y compositor</Rol>
-                <SocialProfileContainerPrincipal>
-                  <LinkStyle href="https://www.instagram.com/carlosgaratemarquerie/" target="_blank">
+                <SocialProfileContainerMedium>
+                  <LinkStyle href="https://www.instagram.com/carlosgaratemarquerie/" target="blank">
                     <SocialProfile
                       alt="Insagram Carlos"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
                     />
                   </LinkStyle>
-                  <LinkStyle href="https://soundcloud.com/carlos-g-rate" target="_blank">
-                    <SocialProfileSoundcloud
-                      alt="Soundcloud Carlos"
-                      src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816760/Espa%C3%B1lol/iconos/580b57fcd9996e24bc43c537_xr3vsl.png"
-                    />
-                  </LinkStyle>
-                  <LinkStyle href="https://open.spotify.com/artist/4fLBliL0dQYGhPgTnetHAZ?si=8j0_4b4HQoiTn18i7mCqoQ" target="_blank">
+                  <LinkStyle href="https://open.spotify.com/artist/4fLBliL0dQYGhPgTnetHAZ?si=8j0_4b4HQoiTn18i7mCqoQ" target="blank">
                     <SocialProfileSpotify
                       alt="Spotify Carlos"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816589/Espa%C3%B1lol/iconos/logo-spotify-icon-4096_d6hdlj.png"
                     />
                   </LinkStyle>
-                  <LinkStyle href="https://www.youtube.com/user/MusicFromBadlands" target="_blank">
+                  <LinkStyle href="https://www.youtube.com/user/MusicFromBadlands" target="blank">
                     <SocialProfileYoutube
                       alt="Youtube Carlos"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622996626/Espa%C3%B1lol/iconos/youtube-logo-0_llcgyw_wcauew.png"
                     />
                   </LinkStyle>
-                </SocialProfileContainerPrincipal>
+                </SocialProfileContainerMedium>
               </Person>
               <Person>
                 <Name>Virginia Lázaro</Name>
                 <Rol>Directora artistica, investigadora y escritora</Rol>
-                <SocialContainerSmall style={{alignItems: 'baseline'}}>
+                <SocialContainerSmall>
                   <LinkStyle style={{width: '25%', marginTop: '.3em'}} href="https://www.instagram.com/_virginialazaro_/">
                     <SocialProfile
                       alt="Insagram Virginia Lázaro"
@@ -79,25 +74,25 @@ export const TeamContainer = () => {
                 <Name>Toni Quiroga (Donna Haringwey)</Name>
                 <Rol>Productor musical</Rol>
                 <SocialProfileContainerPrincipal>
-                  <LinkStyle href="https://www.discogs.com/artist/5840031-Donna-Haringwey" target="_blank">
+                  <LinkStyle href="https://www.discogs.com/artist/5840031-Donna-Haringwey" target="blank">
                     <SocialProfileYoutube
                       alt="Discogs Toni Quriga"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886367/Espa%C3%B1lol/iconos/discogs-logo-transparent_gwix3x.png"
                     />
                   </LinkStyle>                
-                  <LinkStyle href="https://www.facebook.com/donna666haringwey" target="_blank">
+                  <LinkStyle href="https://www.facebook.com/donna666haringwey" target="blank">
                     <SocialProfile
                       alt="Facebook Toni Quriga"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886616/Espa%C3%B1lol/iconos/clipart1854464_z7o8x8.png"
                     />
                   </LinkStyle>
-                  <LinkStyle href="https://www.instagram.com/donna_666_haringwey/" target="_blank">
+                  <LinkStyle href="https://www.instagram.com/donna_666_haringwey/" target="blank">
                     <SocialProfile
                       alt="Instagram Toni Quriga"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
                     />
                   </LinkStyle>
-                  <LinkStyle href="https://soundcloud.com/donnaharingwey" target="_blank">
+                  <LinkStyle href="https://soundcloud.com/donnaharingwey" target="blank">
                     <SocialProfileSoundcloud
                       alt="Soundcloud Toni Quriga"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816760/Espa%C3%B1lol/iconos/580b57fcd9996e24bc43c537_xr3vsl.png"
@@ -108,8 +103,8 @@ export const TeamContainer = () => {
               <Person>
                 <Name>Matias Uris</Name>
                 <Rol>Vídeo y foto</Rol>
-                <SocialContainerSmall style={{alignItems: 'baseline'}}>
-                  <LinkStyle style={{width: '25%', marginTop: '.3em'}} href="https://www.instagram.com/matiasuris/" target="_blank">
+                <SocialContainerSmall>
+                  <LinkStyle style={{width: '25%', marginTop: '.3em'}} href="https://www.instagram.com/matiasuris/" target="blank">
                     <SocialProfile
                       alt="Instagram Matias Uris"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
@@ -124,13 +119,13 @@ export const TeamContainer = () => {
                 <Name>Caona</Name>
                 <Rol>Cantante</Rol>
                 <SocialProfileContainerSecondary>
-                  <LinkStyle style={{width: '25%'}} href="https://soundcloud.com/caonakaona" target="_blank">
+                  <LinkStyle style={{width: '19%'}} href="https://soundcloud.com/caonakaona" target="blank">
                     <SocialProfileSoundcloud
                       alt="Soundcloud Canoa"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816760/Espa%C3%B1lol/iconos/580b57fcd9996e24bc43c537_xr3vsl.png"
                     />
                   </LinkStyle>
-                  <LinkStyle style={{width: '25%'}} href="https://www.instagram.com/caona_2thenoisebleed/" target="_blank">
+                  <LinkStyle style={{width: '19%'}} href="https://www.instagram.com/caona_2thenoisebleed/" target="blank">
                     <SocialProfile
                         style={{marginRight: 0 }}
                         alt="Instagram Canoa"
@@ -143,7 +138,7 @@ export const TeamContainer = () => {
                 <Name>Niño de Elche</Name>
                 <Rol>Cantante</Rol>
                 <SocialProfileContainerSecondary>
-                  <LinkStyle style={{width: '25%'}} href="https://www.instagram.com/ninodeelche/" target="_blank">
+                  <LinkStyle style={{width: '19%'}} href="https://www.instagram.com/ninodeelche/" target="blank">
                     <SocialProfile
                       style={{marginRight: 0 }}
                       alt="Instagram Niño de Elche"
@@ -156,7 +151,7 @@ export const TeamContainer = () => {
                 <Name>@rell_brl</Name>
                 <Rol>Mezcla</Rol>
                 <SocialProfileContainerSecondary>
-                <LinkStyle style={{width: '25%'}} href="https://www.instagram.com/rell_brl/" target="_blank">
+                <LinkStyle style={{width: '19%'}} href="https://www.instagram.com/rell_brl/" target="blank">
                   <SocialProfile
                     style={{marginRight: 0 }}
                     alt="Instagram Rell_brl"
@@ -169,7 +164,7 @@ export const TeamContainer = () => {
                 <Name>@dadub_mastering</Name>
                 <Rol>Mastering</Rol>
                 <SocialProfileContainerSecondary>
-                  <LinkStyle style={{width: '25%'}} href="https://www.instagram.com/dadub_mastering/" target="_blank">
+                  <LinkStyle style={{width: '19%'}} href="https://www.instagram.com/dadub_mastering/" target="blank">
                     <SocialProfile
                       style={{marginRight: 0 }}
                       alt="Instagram dadub_mastering"
@@ -186,7 +181,7 @@ export const TeamContainer = () => {
               <Name>@somosaguacateymango </Name>
               <Rol>Diseño Gráfico</Rol>
               <SocialProfileContainerSecondary>
-                <LinkStyle style={{width: '25%'}} href="https://www.instagram.com/somosaguacateymango/" target="_blank">
+                <LinkStyle style={{width: '19%'}} href="https://www.instagram.com/somosaguacateymango/" target="blank">
                   <SocialProfile
                     style={{marginRight: 0 }}
                     alt="Instagram somosaguacateymango"

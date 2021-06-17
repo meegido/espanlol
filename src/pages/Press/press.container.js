@@ -25,6 +25,12 @@ export const PressPage = () => {
               </a>
             </PressContainer>
             <PressContainer>
+              <Icon alt="rne3" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622817158/Espa%C3%B1lol/iconos/1024px-Logo_RTVE.svg_majglg.png" />
+              <a style={{color: 'black', textDecoration: 'underline'}} href="https://www.rtve.es/alacarta/audios/retromania/retromania-folklore-renovado-baiuca-escena-espanola/5941238/" target="blank">
+                <p>Retromanía - Folklore renovado, Baiuca y la escena española 14/06/2021 	</p>
+              </a>
+            </PressContainer>
+            <PressContainer>
               <Icon alt="neo2" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622817388/Espa%C3%B1lol/iconos/titulo_menu-1_dkitov.png" />
               <a style={{color: 'black', textDecoration: 'underline'}} href="https://www.neo2.com/carlos-garate-espanlol/" target="blank">
               <p>Carlos Gárate habla sobre la España profunda en Españlol</p>

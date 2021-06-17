@@ -51,13 +51,13 @@ export const DiscContainer = () => {
             de Madrid para hablar sobre su investigación en torno a la conexión entre el Antropoceno y el sonido del subsuelo.
           </p>
           <SocialContainer>
-            <SocialLink href="https://www.instagram.com/carlosgaratemarquerie/">
+            <SocialLink href="https://www.instagram.com/carlosgaratemarquerie/" target="blank">
               <SocialIcon
                 alt="Instagram profile"
                 src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
               />
             </SocialLink>
-            <SocialLink href="https://open.spotify.com/artist/4fLBliL0dQYGhPgTnetHAZ?si=-WFUKhQCTMiDWf4TmQ90-w&dl_branch=1">
+            <SocialLink href="https://open.spotify.com/artist/4fLBliL0dQYGhPgTnetHAZ?si=-WFUKhQCTMiDWf4TmQ90-w&dl_branch=1" target="blank">
             <SpotifyIcon
               alt="Spotify profile"
               src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816589/Espa%C3%B1lol/iconos/logo-spotify-icon-4096_d6hdlj.png"

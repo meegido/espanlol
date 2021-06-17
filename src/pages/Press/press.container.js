@@ -38,7 +38,7 @@ export const PressPage = () => {
             </PressContainer>
             <PressContainer>
               <Icon alt="fanasticmag" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622817456/Espa%C3%B1lol/iconos/Screenshot_2021-06-04_at_15.37.25_umdtnb.png" />
-              <a style={{color: 'black', textDecoration: 'underline'}} href="https://www.fantasticmag.es/carlos-garate-fast-date/">
+              <a style={{color: 'black', textDecoration: 'underline'}} href="https://www.fantasticmag.es/carlos-garate-fast-date/" target="blank">
                 <p>#FastDate con Carlos Gárate</p>
               </a>
               

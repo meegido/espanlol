@@ -21,7 +21,7 @@ export const PressPage = () => {
             <PressContainer>
               <Icon alt="rne3" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622817158/Espa%C3%B1lol/iconos/1024px-Logo_RTVE.svg_majglg.png" />
               <a style={{color: 'black', textDecoration: 'underline'}} href="https://www.rtve.es/m/alacarta/audios/siglo-21/elsas-09-06-21/5935491/" target="blank">
-                <p>Siglo 21 - 09/06/2021</p>
+                <p>Siglo XXI - Elsas - 09/06/2021</p>
               </a>
             </PressContainer>
             <PressContainer>

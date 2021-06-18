@@ -10,7 +10,7 @@ export const SinglesPage = () => {
     <Container fluid={true} style={{padding: 0, margin: 0}}>
       <Col xs={4} md={8} lg={12} style={{padding: 0, margin: 0}}  >
         <NavContainer />
-        <TitleSection>Proyecto</TitleSection>
+        <TitleSection>Singles</TitleSection>
         <Row justify="center" style={{marginBottom: '2em'}}>
           <Col xs={4} md={4} lg={6} style={{ padding: '0 2em' }}>
             <SingleImage alt="Cajas cover" src="https://res.cloudinary.com/dekysavu4/image/upload/v1622970160/Espa%C3%B1lol/Logo-beige-72dpi_Low-resolution-email_okwsnm.jpg" />

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from './index.styles'
 import { customConf, theme } from './espanlol.style'
@@ -16,18 +16,12 @@ export default function Espanlol() {
           <GlobalStyles />
           <main>
             <Router>
-              <Route exact path="/">
-                <HomeContainer />
-              </Route>
-              <Route path="/project">
-                <ProjectPage />
-              </Route>
-              <Route path="/singles">
-                <SinglesPage />
-              </Route>
-              <Route  path="press">
-                <PressPage />
-              </Route>
+              <Switch>
+                <Route exact path="/" component={HomeContainer} />
+                <Route path="/project" component={ProjectPage} />
+                <Route path="/singles" component={SinglesPage} />
+                <Route path="/press" component={PressPage} />
+              </Switch>
             </Router>
           </main>
         </ThemeProvider>

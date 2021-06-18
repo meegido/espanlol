@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import {Col, Row} from 'react-awesome-styled-grid'
+import { NavLink } from 'react-router-dom'
+import { Col, Row } from 'react-awesome-styled-grid'
 import {
   TitleProfile,
   ProfileImage,
@@ -82,9 +82,9 @@ export const DiscContainer = () => {
               src="https://res.cloudinary.com/dekysavu4/image/upload/v1622816589/Espa%C3%B1lol/iconos/logo-spotify-icon-4096_d6hdlj.png"
             />
           </SocialLink>
-            <Link to="/project">
+            <NavLink to="/project">
               <ReadButton>Leer mas</ReadButton>
-            </Link>
+            </NavLink>
         </SocialWithButtonContainer>
         </Col>
       </Row>

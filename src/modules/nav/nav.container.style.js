@@ -68,7 +68,7 @@ const navLink = () => css`
   text-transform: uppercase;
 `
 
-export const NavLink = styled.p`
+export const NavLinkStyle = styled.p`
   ${navLink};
   color: ${props => props.theme.colors.black};
 

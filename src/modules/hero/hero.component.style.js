@@ -38,6 +38,7 @@ const titlePosition = () => css`
   justify-content: center;
   align-content: center;
   align-items: center;
+  padding: 0;
 `
 
 export const TitleContainer = styled.div`
@@ -46,25 +47,23 @@ export const TitleContainer = styled.div`
 
 const titleSize = () => css`
   margin-top: 7em;
-  padding: 0 1em;
+  padding: 0;
   width: 100%;
-
+  
 
   ${props => config(props).media['md']`
     margin-top: 3em;  
-    padding: 0 20em;
-    width: 95%;
+    width: 55%;
 `}
 
   ${props => config(props).media['lg']`
-    margin-top: 7em;  
-    padding: 0 34em;
-    width: 100%;
+    margin-top: 7em;
+    width: 40%;
   `}
 
   ${props => config(props).media['xl']`
     margin-top: 2.5em;  
-    padding: 0 34em;
+    width: 30%;
   `}
 `
 

@@ -7,7 +7,8 @@ import { HomeContainer } from './pages/HomePage/home.container'
 import { ProjectPage } from './pages/project/project.container'
 import { SinglesPage } from './pages/Singles/singles.container'
 import { PressPage } from './pages/Press/press.container'
-
+import ScrollToTop from './modules/ScrolToTop'
+ 
 export default function Espanlol() {
   return (
     <ThemeProvider theme={{awesomegrid: customConf}}>
@@ -16,12 +17,14 @@ export default function Espanlol() {
           <GlobalStyles />
           <main>
             <Router>
-              <Switch>
-                <Route exact path="/" component={HomeContainer} />
-                <Route path="/project" component={ProjectPage} />
-                <Route path="/singles" component={SinglesPage} />
-                <Route path="/press" component={PressPage} />
-              </Switch>
+              <ScrollToTop>
+                <Switch>
+                  <Route exact path="/" component={HomeContainer} />
+                  <Route path="/project" component={ProjectPage} />
+                  <Route path="/singles" component={SinglesPage} />
+                  <Route path="/press" component={PressPage} />
+                </Switch>
+              </ScrollToTop>
             </Router>
           </main>
         </ThemeProvider>

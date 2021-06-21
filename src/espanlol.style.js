@@ -3,7 +3,8 @@ export const theme = {
   colors: {
     darkRed: '#D50E00',
     red: '#EF0000',
-    black: `#030303`,
+    black: '#030303',
+    smoothWhite: '#FFFDFD',
     white: '#fff',
     body: '#2B1C19'
   },

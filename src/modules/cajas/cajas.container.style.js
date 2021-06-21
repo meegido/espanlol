@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components'
-import {Col} from 'react-awesome-styled-grid'
+import { Col } from 'react-awesome-styled-grid'
 
 
 const positioningRow = () => css`
@@ -13,7 +13,7 @@ export const RelativeCol = styled(Col)`
 const positioningText = () => css`
   position: absolute; 
   top: 0;
-  right: 10px;
+  right: 30px;
 `
 
 export const AbsolutText = styled.div`

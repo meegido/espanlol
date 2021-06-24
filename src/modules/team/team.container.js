@@ -61,13 +61,13 @@ export const TeamContainer = () => {
                 <Name>Virginia Lázaro</Name>
                 <Rol>Directora artistica, investigadora y escritora</Rol>
                 <SocialContainerSmall>
-                  <LinkStyle style={{width: '25%', marginTop: '.3em'}} href="https://www.instagram.com/_virginialazaro_/">
+                  <LinkStyle style={{width: '25%', marginTop: '.3em'}} href="https://www.instagram.com/_virginialazaro_/" target="blank">
                     <SocialProfile
                       alt="Insagram Virginia Lázaro"
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
                     />
                   </LinkStyle>
-                  <WebLink href="http://virginialazaro.com">Web</WebLink>
+                  <WebLink href="http://virginialazaro.com" target="blank">Web</WebLink>
                 </SocialContainerSmall>
               </Person>
               <Person>
@@ -110,7 +110,7 @@ export const TeamContainer = () => {
                       src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
                     />
                   </LinkStyle>
-                <WebLink href="/">Web</WebLink>
+                <WebLink href="https://matiasuris.com/" target="blank">Web</WebLink>
                 </SocialContainerSmall>
               </Person>
             </ul>

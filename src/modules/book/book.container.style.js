@@ -60,7 +60,7 @@ export const ContextoIcon = styled.img`
   width: 16%;
 
   ${props => config(props).media['sm']`
-    width: 15%;
+    width: 100%;
     padding: 0 1em;
   `}
 `
@@ -71,6 +71,12 @@ export const ContextoLink = styled.a`
   justify-content: center;
   align-items: center;
   margin-bottom: 1em;
+
+  ${props => config(props).media['sm']`
+      margin-bottom: 0;
+      width: 14%;
+
+  `}
 `
 
 export const WebLink = styled.p`

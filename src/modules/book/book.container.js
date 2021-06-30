@@ -6,6 +6,8 @@ import {
   ProfileImage,
   SocialContainer,
   SocialIcon,
+  ContextoIcon,
+  ContextoLink,
   SectionTitle,
   ReadButton,
   SocialWithButtonContainer,
@@ -30,6 +32,13 @@ export const BookContainer = () => {
             src="https://res.cloudinary.com/dekysavu4/image/upload/v1622884987/Espa%C3%B1lol/portada_Espa%C3%B1lol_libro_vydwgj.jpg"/>
        
         <SocialWithButtonContainer style={{marginTop: '2em'}}>
+            <ContextoLink href="https://ctxt.es/es/20210601/Culturas/36329/legionarios-muerte-velocidad-imperialismo-modernidad-Virginia-Lazaro.htm">
+              <ContextoIcon
+                alt="Read more"
+                src="https://res.cloudinary.com/dekysavu4/image/upload/v1622817048/Espa%C3%B1lol/iconos/RevistaCtxt_ve9q96.png"
+              />
+            </ContextoLink>
+            
             <Link to="/project">
               <ReadButton>Leer mas</ReadButton>
             </Link>

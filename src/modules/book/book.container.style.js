@@ -56,14 +56,22 @@ export const SocialLink = styled.a`
   `}
 `
 
-// export const ContextoIcon = styled.img`
-//   width: 8%;
+export const ContextoIcon = styled.img`
+  width: 16%;
 
-//   ${props => config(props).media['sm']`
-//     width: 15%;
-//     padding: 0 1em;
-//   `}
-// `
+  ${props => config(props).media['sm']`
+    width: 15%;
+    padding: 0 1em;
+  `}
+`
+
+export const ContextoLink = styled.a`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+`
 
 export const WebLink = styled.p`
   font-family: 'Trueno', sans-serif;
@@ -82,7 +90,6 @@ export const SectionTitle = styled.h2`
 
 export const SocialWithButtonContainer = styled.div`
   ${socialContainer}
-  align-items: center;
   flex-direction: column;
 
   ${props => config(props).media['sm']`

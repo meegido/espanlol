@@ -55,7 +55,7 @@ export const BookContainer = () => {
           <p>Virginia Lázaro Villa es crítica cultural e investigadora afincada en Londres. En la actualidad se encuentra cursando estudios de doctorado en la Universidad de Goldsmiths en Londres, con una investigación que versa sobre las relaciones entre la presente radicalización de la población, el gesto iconoclasta, y en relación a los cambios sufridos por las imágenes derivados de la llegada de la esfera digital.</p>
           <p>Es licenciada en Bellas Artes por la Universidad Complutense de Madrid, Master en Historia del Arte Contemporáneo y Cultura Visual en el Museo de Arte Contemporáneo Reina Sofía, con especialización en Crítica de Arte. Como divulgadora y crítica cultural ha publicado en medios como El salto, Political Critique  o Adesk.</p>
           <SocialContainer>
-            <SocialLink  href="https://www.instagram.com/_virginialazaro_/" target="_blank ">
+            <SocialLink  href="https://www.instagram.com/virginia_lazaro_/" target="_blank ">
               <SocialIcon
                 alt="Instagram profile"
                 src="https://res.cloudinary.com/dekysavu4/image/upload/v1622886838/Espa%C3%B1lol/iconos/logo-computer-icons-clip-art-instagram-layout-238806f88991bbd95457aa43ae40ca85_yotwzh_mwlj4d.png"
